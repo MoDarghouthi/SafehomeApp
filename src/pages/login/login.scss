@@ -1,0 +1,19 @@
+//@import '../../theme/variables.scss';
+page-login {
+    .firstLogin{
+        
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+        .Login{
+            padding-top: 70%; 
+            position: relative;
+            .row {
+                .item-input {
+                background-color: transparent;
+                }
+            }
+        }       
+             
+     }
+}

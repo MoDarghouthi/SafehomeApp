@@ -1,0 +1,59 @@
+<!--
+  Generated template for the SignupPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>SignUp</ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content padding class = "MainSignup">
+    <ion-grid center test-center>
+        <ion-col class = "SignUp">
+            <ion-row center text-center>
+
+              <ion-item>
+                <ion-label stacked>First Name</ion-label>
+                  <ion-input type="text" [(ngModel)]="data.firstName"></ion-input>
+              </ion-item>
+                
+            </ion-row>
+            
+            <ion-row center text-center>
+                <ion-item>
+                    <ion-label stacked>Last Name</ion-label>
+                    <ion-input type="text" [(ngModel)]="data.lastName"></ion-input>
+                </ion-item>
+                
+            </ion-row>
+            <ion-row center text-center >
+                  <ion-item>
+                      <ion-label stacked>Email</ion-label>
+                      <ion-input type="Email" [(ngModel)]="data.email"></ion-input>
+                  </ion-item>
+              
+            </ion-row>
+            <ion-row center text-center>
+                <ion-item>
+                    <ion-label stacked>password</ion-label>
+                    <ion-input type="password" [(ngModel)]="data.password"></ion-input>
+                </ion-item>
+            </ion-row>
+            <ion-row center text-center>
+                <ion-item>
+                    <ion-label stacked>Password Verification</ion-label>
+                    <ion-input type="password" [(ngModel)]="Verification.password"></ion-input>
+                </ion-item>
+              
+            </ion-row>
+            <ion-row center text-center>
+              <button ion-button full color="lightText" (click)="SignUp()" >SignUp</button>
+            </ion-row>
+        </ion-col>
+      </ion-grid>
+</ion-content>

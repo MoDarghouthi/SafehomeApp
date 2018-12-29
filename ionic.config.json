@@ -1,0 +1,9 @@
+{
+  "name": "SmartHomeApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "98ae8f12",
+  "id": "98ae8f12"
+}
