@@ -1,4 +1,4 @@
-# Smart Home Back End 
+# Safehome Back End 
 ## Usage
 
 Make sure you have mongodb installed into your own machine and running;
